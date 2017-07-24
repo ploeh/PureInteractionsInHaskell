@@ -51,7 +51,13 @@ executable MakeReservation
   main-is:             Main.hs
 
   -- Modules included in this executable, other than Main.
-  -- other-modules:
+  other-modules:
+    CommandLine
+    OpeningJson
+    ReservationJson
+    ReservationsApi
+    ReservationsHttpClient
+    Wizard
 
   -- LANGUAGE extensions used by modules in this package.
   other-extensions:    DeriveFunctor
